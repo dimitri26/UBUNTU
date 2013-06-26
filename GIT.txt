@@ -29,8 +29,8 @@ git diff  pokajet otlichija s poslednego raza
 git remote add origin https://github.com/dimitri26/UBUNTU.git
 	dobavljaem novy ripo UBUNTU  cherez terminal
 	ili cherez sait github.com/dimitri26
-
-git push -u UBUNTU master    perekidyvaem s lokalki na sait
+ 
+git push -u origin master    perekidyvaem s lokalki na sait
 				pri etom poprosit username i login
 
 git remote -v   pokajet vse ripo
