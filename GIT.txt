@@ -1,0 +1,41 @@
+git help    pomosh'
+
+konfiguriruem 
+git config --global user.name "D.Sh."
+git config --global user.email d.sh@gmail.com
+
+
+mkdir mypapka      sozdaem papku
+cd mypapka	perehodim v etu papku
+git init        initsiatsija pustogo gita v mypapka   
+                sozdaetsja .git     mona uvidet' posredstvom ls -a
+
+git status    pokazyvaet izmenenija v gite
+
+git add MoyFail	      pribavlenie moego novogo faila
+git add --all         add all new or modified files
+
+git commit -m "Sozdal fail MoyFail"
+
+
+
+git log    mona prosmotret' istoriu
+
+
+git diff  pokajet otlichija s poslednego raza
+
+
+
+git remote add origin https://github.com/dimitri26/UBUNTU.git
+	dobavljaem novy ripo UBUNTU  cherez terminal
+	ili cherez sait github.com/dimitri26
+
+git push -u UBUNTU master    perekidyvaem s lokalki na sait
+				pri etom poprosit username i login
+
+git remote -v   pokajet vse ripo
+
+
+
+
+

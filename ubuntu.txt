@@ -1,0 +1,106 @@
+
+ls 		prosmotr failov i papok
+ls -l		prosmotr failov i papok bolee podrobno 
+ls -a		prosmotr i skrytyh failov i papok    nachinautsja s .  tochki
+argumenty mojno kombinirovat'
+ls -la  ili  ls -al    bez raznitsi
+
+cd  perehod po adresu
+cd .. perehod v papku na edinitsu vyshe stojashuu
+v kajdoy papke est' dve ssylki  .  i  ..
+. ssylaetsja na samu papku 
+.. ssylaetsja na papku vyshe
+. i .. mojno uvidet' s pomosh'u komandy  ls -a
+
+cd ~  perehod v domashnuu direktoriu
+
+
+rm  udalenie faila
+papka udaljaetsja rekursivno
+rm -rf  udalit' rekursivno bez voprosov
+
+
+
+
+
+wicd network manager   -  wi-fi set'   vmesto normalnoi    est' screenshot s nastroikami
+
+DeadBeeF - mediaplayer
+
+Gmount-iso   	-	tipo Daemon Tools
+
+
+
+
+Dont forget to add you as a vboxusers user. You have to be in the vboxusers group.
+sudo adduser yourUserName vboxusers
+
+To verify it: 
+$ groups yourUserName
+yourUserName : yourUserName adm cdrom sudo dip plugdev lpadmin scanner sambashare vboxusers
+
+
+
+xCHM - reader CHM
+
+
+
+sudo apt-get install alien    ustanovka konvertora paketov rpm -> deb
+sudo alien package.rpm     gde package.rpm - nazvanie paketa
+teper' mona zapuskat' poluchivshiysja paket
+
+
+
+sudo nautilus   vyzov nay pod adminom   mojno copirovat' faily v roote
+
+
+
+
+Socat and serial port over TCP/IP
+---------------------------------------------------
+http://www.lowlevel.cz/log/cats/english/Socat%20and%20serial%20port%20over%20TCP-IP.html
+---------------------------------------------------
+socat TCP-LISTEN:4000,fork /dev/ttyUSB0,raw
+nc 127.0.0.1 4000
+
+
+ls /dev/ttyS*	vyvod vseh serial portov
+
+
+
+sudo apt-get install screen         	esli ne stoit screen
+sudo screen /dev/ttyUSB0 115200		skorost' porta
+
+ps    vyvod aktivnyh protsesov
+kill -9 PID   jestokoe ubiystvo protsesa     libo s sudo  esli net prav
+
+
+
+Ctrl-A	перейти на начало строки, это же можно сделать, нажав клавишу Home;
+Ctrl-U	удалить текущую строку;
+Ctrl-C	Прервать выполнение текущей команды.
+
+
+
+Как изменить параметры последовательного порта в Linux	[исправить]
+Вывод на экран текущих параметров:
+    stty -F /dev/ttyS0 -a	rabotaet
+    setserial -g /dev/ttyS0
+
+Включение Hardware flow control (RTS/CTS):
+    stty -F /dev/ttyS0 crtscts
+
+Установка скорости порта:
+    stty -F /dev/ttyS0 115200	rabotaet
+
+Установка прерывания и типа UART:
+    setserial /dev/ttyS0 auto_irq skip_test autoconfig
+    setserial /dev/ttyS0 irq 5 uart 16550A  skip_test
+
+
+
+lsof -i :56789		spisok protsesov rabotaushih s portom 56789	nc pokajet     screen net
+
+
+
+

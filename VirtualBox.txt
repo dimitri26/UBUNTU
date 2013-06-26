@@ -1,0 +1,42 @@
+https://www.virtualbox.org/wiki/Linux_Downloads    tama vse est'
+
+
+Файл, который содержит список всех репозиториев: /etc/apt/sources.list. Откроем его на редактирование.
+Замечу, что файл доступен на редактирование только суперпользователю.
+
+sudo gksu gedit /etc/apt/sources.list
+
+
+
+
+Add one of the following lines according to your distribution to your /etc/apt/sources.list:
+
+deb http://download.virtualbox.org/virtualbox/debian precise contrib
+deb http://download.virtualbox.org/virtualbox/debian oneiric contrib
+deb http://download.virtualbox.org/virtualbox/debian natty contrib
+deb http://download.virtualbox.org/virtualbox/debian maverick contrib non-free
+deb http://download.virtualbox.org/virtualbox/debian lucid contrib non-free
+deb http://download.virtualbox.org/virtualbox/debian karmic contrib non-free
+deb http://download.virtualbox.org/virtualbox/debian hardy contrib non-free
+deb http://download.virtualbox.org/virtualbox/debian wheezy contrib
+deb http://download.virtualbox.org/virtualbox/debian squeeze contrib non-free
+deb http://download.virtualbox.org/virtualbox/debian lenny contrib non-free
+
+
+
+combine downloading and registering key : 
+wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+
+
+
+sudo apt-get update
+sudo apt-get upgrade
+
+
+sudo apt-get install virtualbox-4.2
+
+
+sudo apt-get update
+sudo apt-get upgrade
+
+

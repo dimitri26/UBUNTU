@@ -1,0 +1,58 @@
+
+prosto obnovim systemu
+
+sudo apt-get update
+sudo apt-get upgrade
+
+
+ustanovka so standartnogo repozitorija Ubuntu
+sudo apt-get install wine
+
+obychno ustarevshaja versija
+poetomu
+
+рекомендуется ставить последнюю версию из официального репозитория Wine
+добавьте официальный ppa-репозиторий, для этого пропишем в терминал
+sudo add-apt-repository ppa:ubuntu-wine/ppa
+
+i obnovim
+
+sudo apt-get update
+sudo apt-get upgrade
+
+
+
+
+
+Winetricks - это скрипт для установки различных компонентов от Microsoft®, и некоторых других. 
+
+
+
+cd ~ perehod v domashnuu direktoriu
+ls -a smotrim na skrytuu direktoriu .wine
+
+команду удаления папки .wine
+rm -rf .wine     nahoditsja v Home directorii
+
+Далее хочу обратить ваше внимание на следующий момент:
+нам нужно сконфигурировать папку .wine,
+в которую в последующем будут устанавливаться наши windows приложения,
+если просто запустить настройку wine (в терминале команда winecfg), 
+то у нас рабочей средой будет 64-битный wine, 
+что не есть хорошо — на данный момент работает отвратно и 
+проблемы в будущем вам обеспечены, поэтому сконфигурируем wine 
+для работы с 32-битными приложениями. В терминале выполняем команду:  
+
+WINEARCH=win32 WINEPREFIX=~/.wine winecfg
+
+
+
+
+
+
+
+
+
+
+
+
