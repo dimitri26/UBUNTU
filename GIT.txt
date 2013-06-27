@@ -36,6 +36,6 @@ git push -u origin master    perekidyvaem s lokalki na sait
 git remote -v   pokajet vse ripo
 
 
-
+--
 
 
