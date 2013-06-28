@@ -1,21 +1,6 @@
 https://www.virtualbox.org/wiki/Linux_Downloads    tama vse est'
 
 
-
-
-
-Dont forget to add you as a vboxusers user. You have to be in the vboxusers group.
-sudo adduser yourUserName vboxusers
-
-To verify it: 
-$ groups yourUserName
-yourUserName : yourUserName adm cdrom sudo dip plugdev lpadmin scanner sambashare vboxusers
-
-
-
-
-
-
 Файл, который содержит список всех репозиториев: /etc/apt/sources.list. Откроем его на редактирование.
 Замечу, что файл доступен на редактирование только суперпользователю.
 

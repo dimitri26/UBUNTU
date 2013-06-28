@@ -1,8 +1,4 @@
 
-ctrl+alt+T   vyzov Terminala
-
-
-
 ls 		prosmotr failov i papok
 ls -l		prosmotr failov i papok bolee podrobno 
 ls -a		prosmotr i skrytyh failov i papok    nachinautsja s .  tochki
