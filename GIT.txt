@@ -12,7 +12,8 @@ git init        initsiatsija pustogo gita v mypapka
 
 git status    pokazyvaet izmenenija v gite
 
-git add MoyFail	      pribavlenie moego novogo faila
+git add MoyFail.txt	      pribavlenie moego novogo faila
+git add *.txt		add all txt files in current directory
 git add --all         add all new or modified files
 
 git commit -m "Sozdal fail MoyFail"

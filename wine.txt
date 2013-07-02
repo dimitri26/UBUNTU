@@ -12,7 +12,7 @@ obychno ustarevshaja versija
 poetomu
 
 рекомендуется ставить последнюю версию из официального репозитория Wine
-добавьте официальный ppa-репозиторий, для этого пропишем в терминал
+добавьте официальный ppa-репозиторий, для этого пропишем в терминале
 sudo add-apt-repository ppa:ubuntu-wine/ppa
 
 i obnovim
