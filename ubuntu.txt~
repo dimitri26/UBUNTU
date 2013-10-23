@@ -5,9 +5,11 @@ ctrl+alt+T   vyzov Terminala
 
 ls 		prosmotr failov i papok
 ls -l		prosmotr failov i papok bolee podrobno 
-ls -a		prosmotr i skrytyh failov i papok    nachinautsja s .  tochki
+ls -a		(all)prosmotr i skrytyh failov i papok    nachinautsja s .  tochki
+ls -1		prosmotr failov 1 fail na strochku
 argumenty mojno kombinirovat'
 ls -la  ili  ls -al    bez raznitsi
+
 
 cd  perehod po adresu
 cd .. perehod v papku na edinitsu vyshe stojashuu
@@ -100,6 +102,19 @@ Ctrl-C	Прервать выполнение текущей команды.
 
 lsof -i :56789		spisok protsesov rabotaushih s portom 56789	nc pokajet     screen net
 
+
+
+
+
+
+
+
+
+
+как установить программу с разрешением .sh
+Открой терминал и напиши там: sh /путь.к_скрипту и будет тебе счастье.
+chmod +x /путь.к_скрипту
+sh /путь.к_скрипту
 
 
 

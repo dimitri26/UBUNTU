@@ -5,12 +5,14 @@ ctrl+alt+T   vyzov Terminala
 
 ls 		prosmotr failov i papok
 ls -l		prosmotr failov i papok bolee podrobno 
-ls -a		prosmotr i skrytyh failov i papok    nachinautsja s .  tochki
+ls -a		(all)prosmotr i skrytyh failov i papok    nachinautsja s .  tochki
+ls -1		prosmotr failov 1 fail na strochku
 argumenty mojno kombinirovat'
 ls -la  ili  ls -al    bez raznitsi
 
-cd  perehod po adresu
-cd .. perehod v papku na edinitsu vyshe stojashuu
+
+cd  		perehod po adresu
+cd .. 		perehod v papku na edinitsu vyshe stojashuu
 v kajdoy papke est' dve ssylki  .  i  ..
 . ssylaetsja na samu papku 
 .. ssylaetsja na papku vyshe
